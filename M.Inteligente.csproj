@@ -74,11 +74,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AgregarUMedidor.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="VerUMedidor.aspx" />
     <Content Include="VerMedidores.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarUMedidor.aspx.cs">
+      <DependentUpon>AgregarUMedidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarUMedidor.aspx.designer.cs">
+      <DependentUpon>AgregarUMedidor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -94,6 +103,13 @@
       <DependentUpon>Principal.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerUMedidor.aspx.cs">
+      <DependentUpon>VerUMedidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerUMedidor.aspx.designer.cs">
+      <DependentUpon>VerUMedidor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VerMedidores.aspx.cs">
       <DependentUpon>VerMedidores.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

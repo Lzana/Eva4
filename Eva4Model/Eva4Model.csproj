@@ -53,8 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\IMedidorDAL.cs" />
     <Compile Include="DAL\IMedidoresDAL.cs" />
     <Compile Include="DAL\ItipoMedidoresDAL.cs" />
+    <Compile Include="DAL\Medidor.cs" />
+    <Compile Include="DAL\MedidorDALDB.cs" />
     <Compile Include="DAL\MedidoresDALObjetos.cs" />
     <Compile Include="DAL\tipoMedidoresDALObjetos.cs" />
     <Compile Include="DTO\Medidores.cs" />
